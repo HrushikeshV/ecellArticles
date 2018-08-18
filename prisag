@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Official Website For EcellArticles.xyz">
+<meta name="keywords" content="EcellArticles">            //changed prisag to EcellArticles
+<meta name="author" content="EcellArticles">
+<title>PriSag</title>
+<link href="static/css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<!-- Favicon -->
+<link rel="shortcut icon" href="static/images/prisag.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="static/images/prisag.png">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+<style>@import url('https://fonts.googleapis.com/css?family=Inconsolata');</style>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container">
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">ARTICLES</a></li>
+        <li> <a href="#contact">SUBMIT</a></li>
+        <li> <a href="#team">TEAM</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="stage">
+      <div class="wrapper">
+        <div class="slash"></div>
+        <div class="sides">
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+          <div class="side"></div>
+        </div>
+        <div class="text">
+          <div class="text--backing">Bl<span style="color:#fff;">ogs</span></div>
+          <div class="text--left">
+            <div class="inner">Bl<span style="color:#fff;">ogs</span></div>
+          </div>
+          <div class="text--right">
+            <div class="inner">Bl<span style="color:#fff;">ogs</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- my -->
+  <section class="about" id="about">
+    <h2>WELCOME MANAGERS</h2>
+    <p class="text_column">Welcome to ARTICLE page of ECell VNIT<br>  This website is basically made to bring out the writer in you<br>
+      To ensure fresh new content and blogs for ECell VNIT and for publicity of this club .
+      WE SINCERELY THANK YOU FOR THIS EFFORT .
+      </p>
+  </section>
+  <!-- Parallax Section -->
+  <div id="code">
+
+    <section id="contact">
+      <div>
+        <h2>ARTICLE SUBMISSION</h2>
+        <form class="myform" action="contactus.php" method="post" name="contactform">
+            <input type="text" placeholder="Name" name="name" required><br>
+            <input type="email" placeholder="Email" name="email" required><br>
+            <input type="text" placeholder="Heading" name="heading" required><br><br>
+          // for the form content
+          <textarea rows="50" cols="50">
+
+          </textarea>
+            <input type="submit" class="button button1" value="Submit">
+        </form>
+
+      </div>
+    </section>
+
+
+
+    <!-- More Info Section -->
+    <footer>
+      <article class="footer_column" id="team">
+        <h3><B>HRUSHIKESH VAZURKAR</B></h3>
+        <a href="http://priyank.xyz" target="_blank"><img src="static/images/priyank.jpg" alt="" width="400" height="400" class="cards"/>
+        <p>Student, VNIT<br><strong>CSE 2021</strong><br>View More</p></a>
+      </article>
+      <article class="footer_column">
+        <h3><b>SAGAR BANSAL</b></h3>
+        <a href="sagar.html" target="_blank"><img src="static/images/sagar.jpg" alt="" width="400" height="400" class="cards" id="sagar"/>
+        <p>Student, VNIT<br><strong>MME 2020</strong><br>View More</p></a>
+      </article>
+    </footer>
+  </div>
+
+
+  </body>
+
+</html>
